@@ -1,7 +1,25 @@
 .fighter-preview___root {
   display: flex;
-  flex-direction: column;
-  flex-basis: 250px;
+  flex-direction: row;
+  flex-basis: 300px;
+  background: #ffdfa7;
+  margin: 10px;
+  border: 5px solid #ca9650;
+  height: 200px;
+}
+
+.fighter-preview___info {
+  height: 100%;
+  width: 100%;
+  font-weight: bold;
+}
+
+.fighter-preview___img {
+  margin-right: 5%;
+}
+
+.fighter-preview___info span {
+  color: crimson;
 }
 
 .fighter-preview___right {
